@@ -2,6 +2,7 @@ import 'package:demo_application/const/colors.dart';
 import 'package:demo_application/const/images.dart';
 import 'package:demo_application/const/text_style.dart';
 import 'package:demo_application/quiz_screen.dart';
+import 'package:demo_application/splash_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -18,7 +19,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const QuizApp(),
+      home: SplashScreen(),
       theme: ThemeData(
         fontFamily: "quick",
       ),
